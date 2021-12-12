@@ -5,9 +5,9 @@ namespace App\Filament\Widgets;
 use App\Services\BozBlogClient;
 use Filament\Widgets\Widget;
 
-class LatestBlogPostsWidget extends Widget
+class EntityWidget extends Widget
 {
-    protected static string $view = 'filament.widgets.latest-blog-posts-widget';
+    protected static string $view = 'filament.widgets.entity-widget';
 
     public array $posts;
 

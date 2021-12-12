@@ -21,7 +21,9 @@ class WidgetResource extends Resource
     {
         return $form
             ->schema([
-                //
+                'url' => Forms\Components\TextInput::make('url')
+                    ->label('URL')
+                    ->required(),
             ]);
     }
 

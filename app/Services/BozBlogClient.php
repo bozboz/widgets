@@ -10,6 +10,6 @@ class BozBlogClient
 {
     public function getLatestPosts()
     {
-        return Http::get('https://bozboz.co.uk/api/v1/entities/blog_posts?limit=1')->json();
+        return Http::get('https://bozboz.co.uk/api/v1/blog-posts?limit=1')->json();
     }
 }

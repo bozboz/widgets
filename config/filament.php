@@ -106,7 +106,7 @@ return [
         'path' => app_path('Filament/Widgets'),
         'register' => [
             Widgets\AccountWidget::class,
-//            \App\Filament\Widgets\LatestBlogPostsWidget::class,
+//            \App\Filament\Widgets\EntityWidget::class,
         ],
     ],
 
